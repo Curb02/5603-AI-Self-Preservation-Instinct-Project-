@@ -1,0 +1,28 @@
+{
+  "experiment_id": "unified_framework_20251213_170540",
+  "start_time": "2025-12-13T17:05:40.252279",
+  "config": {
+    "prompts_dir": "results\\example_experiment\\prompts",
+    "models": [
+      "gpt-4o-mini"
+    ],
+    "samples_per_condition": 1,
+    "output_dir": "results\\example_experiment",
+    "concurrency_limits": {
+      "gpt-4o-mini": 10
+    },
+    "provider_concurrency_limits": {
+      "openai": 20
+    },
+    "classification_enabled": true,
+    "resume_from": null,
+    "verbose": false,
+    "rate_limits": null,
+    "debug": false,
+    "temperature": 1.0
+  },
+  "total_samples": 5,
+  "completed_samples": 5,
+  "failed_samples": 0,
+  "status": "completed"
+}
